@@ -15,7 +15,7 @@ def read_item(item_id: int, q: Optional[str] = None):
     return {"item_id": item_id, "q": q}
 
 @app.get("/applications/")
-def read_applicationa(item_id: int, q: Optional[str] = None):
+def read_applicationa():
     applications = [{
             "name": "EF-M",
             "href": "https://github.com/sed-group/sedlab-efm",
@@ -44,4 +44,4 @@ def read_applicationa(item_id: int, q: Optional[str] = None):
             "href_source": "https://github.com/sed-group/sedlab-value"
         }
     ]
-    return {"applications": applications, "q": q}
+    return {"applications": applications}
