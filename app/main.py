@@ -11,6 +11,7 @@ origins = [
     "https://sedlab-catalog.netlify.app/",
     "http://localhost",
     "http://localhost:8080",
+    "http://109.228.173.32",
 ]
 
 app.add_middleware(
