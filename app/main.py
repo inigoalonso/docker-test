@@ -44,4 +44,4 @@ def read_applicationa():
             "href_source": "https://github.com/sed-group/sedlab-value"
         }
     ]
-    return {"applications": applications}
+    return applications
