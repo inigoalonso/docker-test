@@ -7,8 +7,8 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://192.168.1.140:8080/",
-    "https://sedlab-catalog.netlify.app/",
+    "http://192.168.1.140:8080",
+    "https://sedlab-catalog.netlify.app",
     "http://localhost",
     "http://localhost:8080",
     "http://109.228.173.32",
